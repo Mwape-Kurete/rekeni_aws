@@ -1,0 +1,99 @@
+/*global imports */
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Modak&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.selected-whole-contain.containter {
+  bottom: 0;
+  width: 100%;
+
+  margin: 20px;
+}
+
+.selected-containter {
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 100%;
+  height: 430px;
+  flex-shrink: 0;
+
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.select-alb-cover-img {
+  display: inline-flex;
+  width: 254px;
+  height: 254px;
+  flex-shrink: 0;
+  border-radius: 18px;
+}
+.selected-alb-info {
+  display: block;
+  margin-top: 10%;
+  margin-left: 20px;
+}
+
+.select-meta {
+  margin-top: 10%;
+  color: #fff;
+  font-family: "Montserrat Alternates";
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.go-to-review {
+  margin-top: 30%;
+  width: 374px;
+  height: 146.707px;
+  flex-shrink: 0;
+
+  border-radius: 25px;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 8, 23, 0.35) 15.28%,
+    rgba(54, 43, 125, 0.35) 100%
+  );
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(12.5px);
+}
+
+h5.prompt {
+  display: block;
+  max-width: 75%;
+  font-family: "Montserrat Alternates";
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+.btn-reviewCTA {
+  width: 196px;
+  height: 45px;
+  border-radius: 20px !important;
+  background: #f76910 !important;
+  border: none !important;
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+  color: white !important;
+  text-align: center;
+  font-family: "Montserrat Alternates" !important;
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: normal;
+}
+
+.btn-reviewCTA:hover {
+  background: linear-gradient(
+    180deg,
+    #f77d3a -51.65%,
+    #e3333d 76.86%
+  ) !important;
+}

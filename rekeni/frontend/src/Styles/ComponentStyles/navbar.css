@@ -1,0 +1,96 @@
+/*importing fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Modak&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/*nav styling*/
+
+.navbar-collapse .collapse {
+  max-width: 100% !important;
+}
+.navbar-full-cont {
+  background-color: rgba(255, 255, 255, 0) !important;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+a.nav-text.nav-link {
+  color: white !important;
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: linear;
+}
+
+a.nav-text.nav-link:hover {
+  color: #e9e94e !important;
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.entire-search {
+  width: fit-content !important;
+}
+
+.me-2.search-form.form-control {
+  width: 1000px;
+  height: 49px;
+  flex-shrink: 0;
+  margin-top: -15px;
+
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 0px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 10px;
+
+  border: none;
+  border-top: none;
+}
+
+.me-2.search-form.form-control::placeholder {
+  color: white;
+  font-family: "Montserrat Alternates", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.me-2.search-form.form-control:focus {
+  color: #e9e94e;
+  -webkit-box-shadow: 0px 0px 46px 0px rgba(233, 233, 78, 0.19);
+  -moz-box-shadow: 0px 0px 46px 0px rgba(233, 233, 78, 0.19);
+  box-shadow: 0px 0px 46px 0px rgba(233, 233, 78, 0.19);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-top: none;
+}
+
+.search-gen.btn.btn-primary {
+  margin-top: -5px !important;
+  font-family: "Montserrat Alternates", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 24px;
+  background: linear-gradient(180deg, #f77d3a -51.65%, #e3333d 76.86%);
+  border: none;
+
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+
+.search-gen.btn.btn-primary:hover {
+  margin-top: -5px !important;
+  font-family: "Montserrat Alternates", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 24px;
+  background: linear-gradient(90deg, #e3333d -51.65%, #f77d3a 76.86%);
+  border: none;
+  cursor: pointer;
+}

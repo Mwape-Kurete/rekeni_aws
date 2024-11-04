@@ -1,0 +1,324 @@
+/*global imports */
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Modak&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* reseting styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* global stylyng */
+p.load {
+  padding-top: 5%;
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat Alternates";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+p.load-fail {
+  padding-top: 5%;
+  text-align: center;
+  color: #ed656c;
+  font-family: "Montserrat Alternates";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+h2.login-prompt {
+  padding-top: 5%;
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat Alternates";
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+body {
+  background: url("../Asset/REKENI BACKDROP.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  scrollbar-width: auto; /* Changes the scrollbar to a thinner style */
+  scrollbar-color: #e3333d #f1f1f100; /* Thumb color and track color */
+}
+
+/* For WebKit (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 15px; /* Width of the vertical scrollbar */
+  height: 15px; /* Height of the horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f100; /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e3333d; /* Thumb color */
+  border-radius: 10px; /* Rounded scrollbar corners */
+  border: 2px solid #f1f1f1; /* Space around thumb */
+}
+h1 {
+  color: #fff;
+  font-family: "Montserrat Alternates";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+/* Home page */
+.review-sect-home {
+  margin-left: 1%;
+}
+
+/* Horizontal scrolling container */
+.review-sect-home {
+  height: 400px;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  overflow-y: auto; /* Enable horizontal scrolling */
+  padding: 5px; /* Optional padding */
+  gap: 50px; /* Add space between cards */
+}
+
+.review-sect-home::-webkit-scrollbar {
+  height: 5px; /* Custom scrollbar height */
+}
+
+.review-sect-home::-webkit-scrollbar-thumb {
+  background-color: #e3333d; /* Color of the scroll thumb */
+  border-radius: 10px !important; /* Rounded scroll thumb */
+}
+
+.album-sect-home {
+  margin-left: 8%;
+}
+
+/*profile page */
+
+.top-albums-header {
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat Alternates";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.user-reviews {
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat Alternates";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.user-ratings {
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat Alternates";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.user-ratings-reviews {
+  width: 90%;
+  padding: 10px;
+  margin-top: 200px;
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+
+.bottom-divider {
+  margin-top: 150px;
+}
+
+/*new rekenis */
+.popular {
+  margin-top: 20px !important;
+  padding-top: 20px !important;
+}
+p.explore-prompt {
+  color: #fff;
+  font-family: "Montserrat Alternates";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 200;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+.small-more-info {
+  font-size: 10px;
+}
+.recent-revs-header {
+  color: #fff;
+  font-family: "Montserrat Alternates";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+
+.recents {
+  margin-left: 25px;
+}
+
+.new-albums {
+  display: flex;
+  justify-content: end;
+}
+
+.new-ratings {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.new-albs-sect {
+  margin-left: 4%;
+}
+
+/* Horizontal scrolling container */
+.review-container {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  padding: 10px; /* Optional padding */
+  gap: 50px; /* Add space between cards */
+}
+
+.review-container::-webkit-scrollbar {
+  height: 5px; /* Custom scrollbar height */
+}
+
+.review-container::-webkit-scrollbar-thumb {
+  background-color: #e3333d; /* Color of the scroll thumb */
+  border-radius: 10px !important; /* Rounded scroll thumb */
+}
+
+/* Ensure the cards keep their size */
+.review-card {
+  flex-shrink: 0; /* Prevent the card from shrinking */
+  width: 10rem; /* Ensure the card has a fixed width */
+}
+
+.popular {
+  margin-top: 150px;
+  margin-left: 2%;
+}
+
+.popular-albums {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  padding: 10px; /* Optional padding */
+  gap: 50px; /* Add space between cards */
+}
+
+.popular-albums::-webkit-scrollbar {
+  height: 5px; /* Custom scrollbar height */
+}
+
+.popular-albums::-webkit-scrollbar-thumb {
+  background-color: #e3333d; /* Color of the scroll thumb */
+  border-radius: 10px !important; /* Rounded scroll thumb */
+}
+
+.album-overlays {
+  flex-shrink: 0; /* Prevent the card from shrinking */
+  width: 10rem; /* Ensure the card has a fixed width */
+}
+
+.home-titles {
+  color: #fff;
+  font-family: "Montserrat Alternates";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+
+/*Discover */
+
+.expand-album-gen {
+  margin-bottom: 150px;
+}
+
+/* Single Album */
+a.btn.btn-next-page {
+  margin-top: 5%;
+  width: 396px;
+  height: 45px;
+  border-radius: 20px;
+  background: #f76910;
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat Alternates";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: 1%;
+  border: none;
+}
+
+/*SearchGen*/
+.album-populate {
+  max-height: 400px;
+  margin-bottom: 15px;
+  overflow-y: scroll;
+}
+
+/*Single Album Page */
+
+.review-section-single {
+  overflow-y: scroll;
+  width: 100%;
+  height: 400px;
+}
+
+/* Hide the scrollbar for WebKit browsers */
+.review-section-single::-webkit-scrollbar {
+  width: 0; /* Hides the scrollbar */
+  height: 0; /* Hides the horizontal scrollbar */
+  background: transparent; /* Ensures the scrollbar is transparent */
+}
+
+/* For Firefox */
+.review-section-single {
+  scrollbar-width: none; /* Hides scrollbar for Firefox */
+}
+
+/* For Edge and IE (not recommended, but for legacy support) */
+.review-section-single {
+  -ms-overflow-style: none; /* Hides scrollbar for IE and Edge */
+}
+
+.review-single-cont {
+  display: flex;
+  flex-direction: column; /* Ensures vertical stacking */
+  gap: 1rem; /* Adds space between each card */
+}

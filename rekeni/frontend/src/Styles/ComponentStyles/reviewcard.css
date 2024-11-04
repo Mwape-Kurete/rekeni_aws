@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Modak&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.card.review-card {
+  justify-content: center;
+
+  width: 90%;
+  height: 250px;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+}
+
+.review-card-img {
+  display: inline-block;
+
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 6px;
+}
+
+.review-card-img-cont {
+  width: 180px !important;
+  margin-right: 40px;
+}
+
+.review-card-body.col-6.d-flex.align-items-center.col {
+  width: 60%;
+}
+
+.like-btn.row {
+  margin-top: 10px;
+}
+
+.card-body.card-body-content-review {
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+
+.d-flex.align-items-center.stars-rating {
+  margin-bottom: 10px;
+}
+
+button.like-button.btn.btn-primary {
+  background-color: rgba(255, 255, 255, 0) !important;
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.custom-color {
+  color: white;
+}
+.custom-color:hover {
+  color: rgb(227, 51, 61) !important;
+}
+
+.rating-stars:hover {
+  color: #e9e94e;
+  cursor: pointer;
+}
+
+.card-body-content-review > .card-title {
+  font-family: "Montserrat Alternates";
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card-body-content-review > .card-text {
+  font-family: "Montserrat Alternates";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.user-information > .card-text {
+  font-family: "Montserrat Alternates";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.written-rating {
+  font-family: "Montserrat Alternates";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.no-likes {
+  margin-bottom: -10px;
+}

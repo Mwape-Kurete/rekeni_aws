@@ -1,0 +1,44 @@
+/*global imports */
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Modak&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.whole-search-top {
+  margin: 20px;
+}
+
+.act-search-form.search-top-albs {
+  height: 55px;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.133);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-family: "Montserrat Alternates";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+}
+
+.act-search-form.search-top-albs::placeholder {
+  color: #f76910;
+  font-family: "Montserrat Alternates";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.search-top-button.btn.btn-primary {
+  border-radius: 45px !important;
+  background: #f76910 !important;
+  width: 250px;
+  height: 45px;
+  font-family: "Montserrat Alternates";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none !important;
+}

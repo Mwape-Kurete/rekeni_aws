@@ -1,0 +1,157 @@
+/*global imports */
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Modak&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* General mind map node for album cards */
+.results-search-contain {
+  color: white !important;
+  padding: 15px 15px;
+  border-radius: 15px;
+
+  margin: 10px;
+  margin-top: 0;
+}
+
+.result-col-discover {
+  margin: 0 auto;
+  padding: 5px;
+  padding-left: 40px;
+  width: 75% !important;
+  height: 200px !important;
+
+  /*background colopr*/
+  background: rgba(255, 255, 255, 0) !important;
+  backdrop-filter: blur(7.5px) !important;
+  -webkit-backdrop-filter: blur(7.5px) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+
+  margin: 10px;
+
+  transition: all 1000ms;
+}
+
+.result-col {
+  padding: 5px;
+  padding-left: 40px;
+  width: 680px !important;
+  height: 172px !important;
+
+  /*background colour*/
+  background: rgba(255, 255, 255, 0) !important;
+  backdrop-filter: blur(7.5px) !important;
+  -webkit-backdrop-filter: blur(7.5px) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+
+  margin: 10px;
+
+  transition: all 1000ms;
+}
+
+.result-col:hover {
+  cursor: pointer;
+  /*background colour*/
+  background: rgba(255, 255, 255, 0.132) !important;
+  backdrop-filter: blur(10.5px) !important;
+  -webkit-backdrop-filter: blur(10.5px) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255, 255, 255, 0.492) !important;
+}
+
+.result-col-discover:hover {
+  cursor: pointer;
+  /*background colour*/
+  background: rgba(255, 255, 255, 0.132) !important;
+  backdrop-filter: blur(10.5px) !important;
+  -webkit-backdrop-filter: blur(10.5px) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255, 255, 255, 0.492) !important;
+}
+
+div.img-sml {
+  display: inline-flex;
+  width: 144px;
+  height: 144px;
+  margin-top: 10px;
+}
+
+div.album-meta-res {
+  display: block;
+  justify-content: center;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.title {
+  color: #fff;
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.name {
+  color: #fff;
+  font-family: "Montserrat Alternates";
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.year {
+  color: #fff;
+  font-family: "Montserrat Alternates";
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+}
+
+img.result-img-search {
+  border-radius: 95px;
+  width: 144px;
+  height: 144px;
+}
+
+.result-search-contain:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+/*modal*/
+.modal-album-item {
+  display: flex;
+  align-items: start; /* Aligns the content at the start */
+  margin-bottom: 25px; /* Space between albums */
+}
+
+.modal-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;
+  flex-shrink: 0; /* Prevents the image from shrinking */
+}
+
+.modal-album-meta {
+  margin-left: 15px; /* Space between the image and the meta information */
+  display: flex;
+  flex-direction: column; /* Ensures text inside is stacked vertically */
+}
+
+.modal-content {
+  background: rgb(255, 255, 255) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  color: black !important;
+}
+
+.link-to-spotify {
+  text-decoration: none;
+  color: #e3333d;
+  transition: all 1000ms;
+}
+
+.link-to-spotify:hover {
+  text-decoration: underline;
+  color: #ab1a21;
+}

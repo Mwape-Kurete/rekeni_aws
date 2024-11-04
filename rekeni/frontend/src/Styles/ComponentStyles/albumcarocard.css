@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Modak&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.album-overlays .card-img {
+  width: 287px;
+  height: 264px;
+}
+
+.album-overlays .card-img-overlay {
+  position: absolute; /* Position overlay absolutely over the image */
+  top: 0;
+  left: 0;
+  width: 100%; /* Use 100% to cover the entire image */
+  height: 100%;
+  z-index: 1;
+  color: white;
+  font-family: "Montserrat Alternates";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  /* Add a gradient background */
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.601),
+    rgb(0, 0, 0) /*bottom half*/
+  );
+}
+
+.album-overlays .card-img-overlay:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  color: transparent;
+  cursor: pointer;
+}
+
+.album-overlays {
+  position: relative; /* Make sure the card itself is relatively positioned */
+}

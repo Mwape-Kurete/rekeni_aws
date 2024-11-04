@@ -1,0 +1,10 @@
+runtime: nodejs20
+instance_class: F2
+env_variables:
+  NODE_ENV: "production"
+  MONGO_URI: "mongodb+srv://231115:i1tYIPmPhb0PpFdm@rekenidb.ygxqf.mongodb.net/?retryWrites=true&w=majority&appName=RekeniDB"
+  LASTFM_API_KEY: "2828f86496787f1ac7dca46eec87ac4b"
+  LASTFM_CLIENT_SECRET: "f0a5ae7848fdf2739665bbaed5a93826"
+  TASTEDIVE_API_KEY: "1038673-Rekeni-26C7ADC1"
+  SPOTIFY_CLIENT_ID: "87f9f14c032c42aea3f8e5269029d796"
+  SPOTIFY_CLIENT_SECRET: "c84d460a76e84402ba0471b0a616a12a"
